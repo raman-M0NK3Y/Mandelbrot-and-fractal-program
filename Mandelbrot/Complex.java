@@ -309,14 +309,14 @@ public final class Complex {
 		// a plus or minus sign, and the third element will be a real
 		// number followed immediately by an i.
 		//
-		// To complete the implementation of this method you need
-		// to do the following:
+		// implementation:
+		// 
 		//
 		// -check if parts has 3 elements
 		// -check if the second element of parts is "+" or "-"
 		// -check if the third element of parts ends with an "i"
 		// -if any of the 3 checks are false then s isn't a complex number
-		//  and you should throw an exception
+		//  and should throw an exception
 		// -if all of the 3 checks are true then s might a complex number
 		// -try to convert the first element of parts to a double value
 		//  (use Double.valueOf); this might fail in which case s isn't
@@ -325,8 +325,8 @@ public final class Complex {
 		//  to convert the resulting string to a double value
 	    //  (use Double.valueOf); this might fail in which case s isn't
 		//  a complex number
-		// -you now have real and imaginary parts of the complex number
-		//  but you still have to account for the "+" or "-" which
+		// -now have real and imaginary parts of the complex number
+		//  but still have to account for the "+" or "-" which
 		//  is stored as the second element of parts
 		// -once you account for the sign, you can return the correct
 		//  complex number
