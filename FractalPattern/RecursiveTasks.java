@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 /**
- * A utility class containing several recursive methods (Lab 6, 2018)
+ * A utility class containing several recursive methods 
  * 
  * <pre>
  * 
@@ -12,7 +12,7 @@ import java.util.ArrayList;
  * String or List based methods such as "contains", or methods that use regular expressions
  * </pre>
  * 
- * @author 
+ * @author Raman kullar
  *
  */
 public final class RecursiveTasks {
@@ -94,8 +94,8 @@ public final class RecursiveTasks {
 	 * <code>parenthIsNested("(((x))")</code> will return false
 	 * </pre>
 	 * 
-	 * Hint: check the first and last chars, and then recur on what's inside
-	 * them.
+	 * 
+	 * 
 	 * 
 	 * @param str
 	 *            - the string (includes zero or more pairs of parenthesis)
