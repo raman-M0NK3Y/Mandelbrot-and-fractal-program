@@ -27,12 +27,12 @@ public class MandelbrotUtil {
 	public static int mandelbrotIterations(Complex c, int max) {
 		Complex z = new Complex(0.0, 0.0);
 		
-		// You need a loop here. Inside the loop, set z to z * z + c
+		// need a loop here. Inside the loop, set z to z * z + c
 		// (i.e. perform one iteration of the equation) and
 		// check if the magnitude of z is greater than 2; if
 		// the magnitude is greater than 2 then return the
 		// number of times you computed z * z + c.
-		// If you compute z * z + c max times and the magnitude
+		// If compute z * z + c max times and the magnitude
 		// of z is still less than or equal to 2 you should
 		// return max.
 		
